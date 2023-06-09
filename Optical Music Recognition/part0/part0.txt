@@ -1,0 +1,6 @@
+In part0, we have a noisy image of Pichu. After converting this image to the frequency domain, we can see that we have some kind of noise (is this the word "Hi"??). 
+We can see that "Hi", in addition to some strong signal at some higher frequencies (the bright tilted areas). Therefore, we needed it to 
+implement a low pass filter to remove the noises added.
+A Gaussian filter was designed using the np.hamming function. Then, a multiplication was done in the frequency domain. 
+The radius of the hamming function indicate the threshold of the low pass filter. 
+We can see the reults in "lpf.png". 
