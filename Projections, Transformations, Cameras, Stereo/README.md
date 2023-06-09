@@ -5,14 +5,14 @@ All programs have been tested on the SILO servers and can be run by following th
 ## Part 1: 3d-to-2d
 
 The program computes the projection matrix for a given 3D world using coordinates from the airport.pts file and simulates an airplane taking off, flying around, and landing. The projection matrix is calculated from the 3D points using the following formula:
-![Formula to calculate projection matrix](https://github.iu.edu/cs-b657-sp2023/chikrish-jbhendri-sanpati-bhkanthe-a2/blob/main/part1/formula.png)
+![Formula to calculate projection matrix](https://github.com/santhu932/Computer-Vision-Challenges/blob/b70cacf4f393d1297711fdb9ba56fa568d5cfd96/Projections%2C%20Transformations%2C%20Cameras%2C%20Stereo/part1/formula.png)
 The given formula calculates the projection matrix (Π), which is used to transform 3D coordinates into 2D coordinates as seen by a camera. This process simulates how a real-world camera would capture a 3D scene. The formula consists of several components:
 - A matrix with the focal length (f) represents the camera's intrinsic properties. The focal length determines how the camera "sees" the 3D world in terms of perspective and scale.
 - Three rotation matrices for the tilt (α), twist (β), and yaw (γ) angles of the camera. These matrices represent the camera's orientation in 3D space.
 - A translation matrix with the camera's location (tx, ty, tz) in 3D space. This matrix represents the camera's position relative to the 3D world.
 - The matrix product of these components results in the final projection matrix (Π), which can be used to transform 3D points into their 2D representation as seen by the camera.
 
-![Airport.pts 3D plot for coordinate visualization](https://github.iu.edu/cs-b657-sp2023/chikrish-jbhendri-sanpati-bhkanthe-a2/blob/main/part1/airport.png)
+![Airport.pts 3D plot for coordinate visualization](https://github.com/santhu932/Computer-Vision-Challenges/blob/b70cacf4f393d1297711fdb9ba56fa568d5cfd96/Projections%2C%20Transformations%2C%20Cameras%2C%20Stereo/part1/airport.png)
 
 The program consists of three main components:
 ### 1. Projection_matrix():
