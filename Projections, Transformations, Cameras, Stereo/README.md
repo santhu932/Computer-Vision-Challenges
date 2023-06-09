@@ -74,7 +74,7 @@ Aloe Image:
 Naive stereo technique mean error = 69.32447693595235
 MRF stereo technique mean error = 65.90849069209729
 
-![Aloe Naive](/part3/Results/Aloe-naive.png?raw=true "Naive")
+![Aloe Naive](part3/Results/Aloe-naive.png?raw=true "Naive")
 ![Aloe MRF](part3/Results/Aloe-mrf.png?raw=true "MRF")
 
 
